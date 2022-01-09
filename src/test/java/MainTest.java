@@ -1,4 +1,4 @@
-import koschei.KoscheiTheDeathless;
+import koschei.KascheiTheDeathless;
 import koschei.config.AppConfig;
 import org.junit.Assert;
 import org.junit.Test;
@@ -19,8 +19,8 @@ public class MainTest {
     public void mainTest() {
         String text = "На свете есть океан , на океане остров , на острове дерево , на дереве заяц , в зайце утка , в утке яйцо , в яйце иголка , смерть Кощея на игле :(";
 
-        KoscheiTheDeathless koscheiTheDeathless =
-                applicationContext.getBean(KoscheiTheDeathless.class);
+        KascheiTheDeathless koscheiTheDeathless =
+                applicationContext.getBean(KascheiTheDeathless.class);
         System.out.println(koscheiTheDeathless.getRulesByDeth());
         String testText = koscheiTheDeathless.getRulesByDeth();
 

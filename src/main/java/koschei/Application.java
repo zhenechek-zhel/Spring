@@ -8,8 +8,8 @@ public class Application {
     public static void main(String[] args) {
         ApplicationContext applicationContext =
                 new AnnotationConfigApplicationContext(AppConfig.class);
-        KoscheiTheDeathless koscheiTheDeathless =
-                applicationContext.getBean(KoscheiTheDeathless.class);
+        KascheiTheDeathless koscheiTheDeathless =
+                applicationContext.getBean(KascheiTheDeathless.class);
         System.out.println(koscheiTheDeathless.getRulesByDeth());
     }
 }
